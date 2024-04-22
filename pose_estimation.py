@@ -2,10 +2,11 @@ import cv2
 import mediapipe as mp
 import time
 
+#module
 
+mpDraw = mp.solutions.drawing_utils
 mpPose = mp.solutions.pose
 pose = mpPose.Pose()
-mpDraw = mp.solutions.drawing_utils
 
 #cap = cv2.VideoCapture(0)
 cap = cv2.VideoCapture('videos/a.mp4')
