@@ -5,6 +5,7 @@ import PoseModule as pm
 cap = cv2.VideoCapture('videos/a.mp4')
 pTime = 0
 detector = pm.PoseDetector()
+
 while True:
     success, img = cap.read()
     img = detector.findPose(img)
