@@ -1,3 +1,3 @@
-
---> pip install opencv-python</br>
---> pip install mediapipe</br>
+Installation:
+pip install opencv-python
+pip install mediapipe
